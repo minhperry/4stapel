@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "98-game": {
+    "4stapel": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "98-game:build:production"
+              "buildTarget": "4stapel:build:production"
             },
             "development": {
-              "buildTarget": "98-game:build:development"
+              "buildTarget": "4stapel:build:development"
             }
           },
           "defaultConfiguration": "development"
