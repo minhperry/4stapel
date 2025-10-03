@@ -1,0 +1,21 @@
+:root {
+  --color-bg: oklch(0.748 0 89.876);
+  --color-stack: oklch(60% 0.15 200);
+  --color-highlight: oklch(50% 0.20 220);
+  --color-accent: oklch(45% 0.30 320);
+  --color-text: oklch(20% 0.02 200);
+}
+
+.mono {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}

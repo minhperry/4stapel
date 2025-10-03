@@ -3,9 +3,12 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.scss'
+  imports: [
+    RouterOutlet
+  ],
+  template: `
+    <router-outlet />
+  `
 })
 export class App {
   protected readonly title = signal('98-game');
