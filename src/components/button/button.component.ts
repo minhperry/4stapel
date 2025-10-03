@@ -1,7 +1,7 @@
 import {Component, output} from '@angular/core';
 
 @Component({
-  selector: 'app-button',
+  selector: 'c-button',
   template: `
     <button (click)="onClick.emit($event)">
       <ng-content>

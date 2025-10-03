@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import {ButtonComponent} from '@components';
 
 @Component({
   selector: 'app-main-menu',
-  imports: [],
+  imports: [
+    ButtonComponent
+  ],
   templateUrl: './main-menu.page.html',
   styleUrl: './main-menu.page.scss'
 })
